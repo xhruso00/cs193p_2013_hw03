@@ -11,11 +11,42 @@
 		D203237516B6AA7000751384 /* Karta.m in Sources */ = {isa = PBXBuildFile; fileRef = D203237416B6AA7000751384 /* Karta.m */; };
 		D203237816B6AA8500751384 /* HraciaKarta.m in Sources */ = {isa = PBXBuildFile; fileRef = D203237716B6AA8500751384 /* HraciaKarta.m */; };
 		D203237B16B6AB1500751384 /* BalicekHracichKariet.m in Sources */ = {isa = PBXBuildFile; fileRef = D203237A16B6AB1500751384 /* BalicekHracichKariet.m */; };
+		D2156ADA16D380E3004356C7 /* KartovaHra.m in Sources */ = {isa = PBXBuildFile; fileRef = D2156AD916D380E3004356C7 /* KartovaHra.m */; };
 		D23B4A7F16C93B21007D42AE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D23B4A7E16C93B21007D42AE /* SecondViewController.m */; };
 		D23B4A8216C9B073007D42AE /* SkupinovaKarta.m in Sources */ = {isa = PBXBuildFile; fileRef = D23B4A8116C9B073007D42AE /* SkupinovaKarta.m */; };
 		D23B4A8516C9B692007D42AE /* BalicekSkupinovychKariet.m in Sources */ = {isa = PBXBuildFile; fileRef = D23B4A8416C9B691007D42AE /* BalicekSkupinovychKariet.m */; };
-		D23B4A8816C9B821007D42AE /* SkupinovaKartovaHra.m in Sources */ = {isa = PBXBuildFile; fileRef = D23B4A8716C9B821007D42AE /* SkupinovaKartovaHra.m */; };
 		D23B4A8B16CA5891007D42AE /* PoslednyTah.m in Sources */ = {isa = PBXBuildFile; fileRef = D23B4A8A16CA5891007D42AE /* PoslednyTah.m */; };
+		D2931C1816D2E13D0044643A /* J♠.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2931C0016D2E13D0044643A /* J♠.jpg */; };
+		D2931C1916D2E13D0044643A /* J♠@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2931C0116D2E13D0044643A /* J♠@2x.jpg */; };
+		D2931C1A16D2E13D0044643A /* J♣.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2931C0216D2E13D0044643A /* J♣.jpg */; };
+		D2931C1B16D2E13D0044643A /* J♣@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2931C0316D2E13D0044643A /* J♣@2x.jpg */; };
+		D2931C1C16D2E13D0044643A /* J♥.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2931C0416D2E13D0044643A /* J♥.jpg */; };
+		D2931C1D16D2E13D0044643A /* J♥@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2931C0516D2E13D0044643A /* J♥@2x.jpg */; };
+		D2931C1E16D2E13D0044643A /* J♦.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2931C0616D2E13D0044643A /* J♦.jpg */; };
+		D2931C1F16D2E13D0044643A /* J♦@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2931C0716D2E13D0044643A /* J♦@2x.jpg */; };
+		D2931C2016D2E13D0044643A /* K♠.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2931C0816D2E13D0044643A /* K♠.jpg */; };
+		D2931C2116D2E13D0044643A /* K♠@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2931C0916D2E13D0044643A /* K♠@2x.jpg */; };
+		D2931C2216D2E13D0044643A /* K♣.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2931C0A16D2E13D0044643A /* K♣.jpg */; };
+		D2931C2316D2E13D0044643A /* K♣@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2931C0B16D2E13D0044643A /* K♣@2x.jpg */; };
+		D2931C2416D2E13D0044643A /* K♥.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2931C0C16D2E13D0044643A /* K♥.jpg */; };
+		D2931C2516D2E13D0044643A /* K♥@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2931C0D16D2E13D0044643A /* K♥@2x.jpg */; };
+		D2931C2616D2E13D0044643A /* K♦.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2931C0E16D2E13D0044643A /* K♦.jpg */; };
+		D2931C2716D2E13D0044643A /* K♦@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2931C0F16D2E13D0044643A /* K♦@2x.jpg */; };
+		D2931C2816D2E13D0044643A /* Q♠.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2931C1016D2E13D0044643A /* Q♠.jpg */; };
+		D2931C2916D2E13D0044643A /* Q♠@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2931C1116D2E13D0044643A /* Q♠@2x.jpg */; };
+		D2931C2A16D2E13D0044643A /* Q♣.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2931C1216D2E13D0044643A /* Q♣.jpg */; };
+		D2931C2B16D2E13D0044643A /* Q♣@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2931C1316D2E13D0044643A /* Q♣@2x.jpg */; };
+		D2931C2C16D2E13D0044643A /* Q♥.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2931C1416D2E13D0044643A /* Q♥.jpg */; };
+		D2931C2D16D2E13D0044643A /* Q♥@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2931C1516D2E13D0044643A /* Q♥@2x.jpg */; };
+		D2931C2E16D2E13D0044643A /* Q♦.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2931C1616D2E13D0044643A /* Q♦.jpg */; };
+		D2931C2F16D2E13D0044643A /* Q♦@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2931C1716D2E13D0044643A /* Q♦@2x.jpg */; };
+		D2931C3216D2E1B20044643A /* HraciaKartaView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2931C3116D2E1B20044643A /* HraciaKartaView.m */; };
+		D2931C3516D2E2DC0044643A /* HraciaKartaCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2931C3416D2E2DB0044643A /* HraciaKartaCollectionViewCell.m */; };
+		D2931C3816D2E6E60044643A /* PorovnavaciaHraController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2931C3716D2E6E60044643A /* PorovnavaciaHraController.m */; };
+		D2931C3A16D2EBE60044643A /* cardback.png in Resources */ = {isa = PBXBuildFile; fileRef = D2931C3916D2EBE60044643A /* cardback.png */; };
+		D2A05BAC16D3711500AAED7F /* SkupinovaHraController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A05BAB16D3711500AAED7F /* SkupinovaHraController.m */; };
+		D2A05BAF16D3726100AAED7F /* SkupinovaKartaView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A05BAE16D3726100AAED7F /* SkupinovaKartaView.m */; };
+		D2A05BB216D372B300AAED7F /* SkupinovaKartaCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A05BB116D372B300AAED7F /* SkupinovaKartaCollectionViewCell.m */; };
 		D2E0B57516B2EAF10024A566 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E0B57416B2EAF10024A566 /* UIKit.framework */; };
 		D2E0B57716B2EAF10024A566 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E0B57616B2EAF10024A566 /* Foundation.framework */; };
 		D2E0B57916B2EAF10024A566 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2E0B57816B2EAF10024A566 /* CoreGraphics.framework */; };
@@ -26,9 +57,8 @@
 		D2E0B58916B2EAF10024A566 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E0B58816B2EAF10024A566 /* Default@2x.png */; };
 		D2E0B58B16B2EAF10024A566 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2E0B58A16B2EAF10024A566 /* Default-568h@2x.png */; };
 		D2E0B58E16B2EAF10024A566 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E0B58C16B2EAF10024A566 /* MainStoryboard.storyboard */; };
-		D2E0B59116B2EAF10024A566 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E0B59016B2EAF10024A566 /* ViewController.m */; };
+		D2E0B59116B2EAF10024A566 /* HraController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E0B59016B2EAF10024A566 /* HraController.m */; };
 		D2FEF2BC16BFDAD80063E56F /* backFace.png in Resources */ = {isa = PBXBuildFile; fileRef = D2FEF2BB16BFDAD80063E56F /* backFace.png */; };
-		D2FEF2BF16BFDE450063E56F /* PorovnavaciaKartovaHra.m in Sources */ = {isa = PBXBuildFile; fileRef = D2FEF2BE16BFDE450063E56F /* PorovnavaciaKartovaHra.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,16 +70,53 @@
 		D203237716B6AA8500751384 /* HraciaKarta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HraciaKarta.m; sourceTree = "<group>"; };
 		D203237916B6AB1500751384 /* BalicekHracichKariet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BalicekHracichKariet.h; sourceTree = "<group>"; };
 		D203237A16B6AB1500751384 /* BalicekHracichKariet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BalicekHracichKariet.m; sourceTree = "<group>"; };
+		D2156AD816D380E3004356C7 /* KartovaHra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KartovaHra.h; sourceTree = "<group>"; };
+		D2156AD916D380E3004356C7 /* KartovaHra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KartovaHra.m; sourceTree = "<group>"; };
 		D23B4A7D16C93B21007D42AE /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		D23B4A7E16C93B21007D42AE /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		D23B4A8016C9B073007D42AE /* SkupinovaKarta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkupinovaKarta.h; sourceTree = "<group>"; };
 		D23B4A8116C9B073007D42AE /* SkupinovaKarta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkupinovaKarta.m; sourceTree = "<group>"; };
 		D23B4A8316C9B691007D42AE /* BalicekSkupinovychKariet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BalicekSkupinovychKariet.h; sourceTree = "<group>"; };
 		D23B4A8416C9B691007D42AE /* BalicekSkupinovychKariet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BalicekSkupinovychKariet.m; sourceTree = "<group>"; };
-		D23B4A8616C9B821007D42AE /* SkupinovaKartovaHra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkupinovaKartovaHra.h; sourceTree = "<group>"; };
-		D23B4A8716C9B821007D42AE /* SkupinovaKartovaHra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkupinovaKartovaHra.m; sourceTree = "<group>"; };
 		D23B4A8916CA5891007D42AE /* PoslednyTah.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoslednyTah.h; sourceTree = "<group>"; };
 		D23B4A8A16CA5891007D42AE /* PoslednyTah.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoslednyTah.m; sourceTree = "<group>"; };
+		D2931C0016D2E13D0044643A /* J♠.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "J♠.jpg"; sourceTree = "<group>"; };
+		D2931C0116D2E13D0044643A /* J♠@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "J♠@2x.jpg"; sourceTree = "<group>"; };
+		D2931C0216D2E13D0044643A /* J♣.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "J♣.jpg"; sourceTree = "<group>"; };
+		D2931C0316D2E13D0044643A /* J♣@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "J♣@2x.jpg"; sourceTree = "<group>"; };
+		D2931C0416D2E13D0044643A /* J♥.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "J♥.jpg"; sourceTree = "<group>"; };
+		D2931C0516D2E13D0044643A /* J♥@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "J♥@2x.jpg"; sourceTree = "<group>"; };
+		D2931C0616D2E13D0044643A /* J♦.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "J♦.jpg"; sourceTree = "<group>"; };
+		D2931C0716D2E13D0044643A /* J♦@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "J♦@2x.jpg"; sourceTree = "<group>"; };
+		D2931C0816D2E13D0044643A /* K♠.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "K♠.jpg"; sourceTree = "<group>"; };
+		D2931C0916D2E13D0044643A /* K♠@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "K♠@2x.jpg"; sourceTree = "<group>"; };
+		D2931C0A16D2E13D0044643A /* K♣.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "K♣.jpg"; sourceTree = "<group>"; };
+		D2931C0B16D2E13D0044643A /* K♣@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "K♣@2x.jpg"; sourceTree = "<group>"; };
+		D2931C0C16D2E13D0044643A /* K♥.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "K♥.jpg"; sourceTree = "<group>"; };
+		D2931C0D16D2E13D0044643A /* K♥@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "K♥@2x.jpg"; sourceTree = "<group>"; };
+		D2931C0E16D2E13D0044643A /* K♦.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "K♦.jpg"; sourceTree = "<group>"; };
+		D2931C0F16D2E13D0044643A /* K♦@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "K♦@2x.jpg"; sourceTree = "<group>"; };
+		D2931C1016D2E13D0044643A /* Q♠.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Q♠.jpg"; sourceTree = "<group>"; };
+		D2931C1116D2E13D0044643A /* Q♠@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Q♠@2x.jpg"; sourceTree = "<group>"; };
+		D2931C1216D2E13D0044643A /* Q♣.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Q♣.jpg"; sourceTree = "<group>"; };
+		D2931C1316D2E13D0044643A /* Q♣@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Q♣@2x.jpg"; sourceTree = "<group>"; };
+		D2931C1416D2E13D0044643A /* Q♥.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Q♥.jpg"; sourceTree = "<group>"; };
+		D2931C1516D2E13D0044643A /* Q♥@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Q♥@2x.jpg"; sourceTree = "<group>"; };
+		D2931C1616D2E13D0044643A /* Q♦.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Q♦.jpg"; sourceTree = "<group>"; };
+		D2931C1716D2E13D0044643A /* Q♦@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Q♦@2x.jpg"; sourceTree = "<group>"; };
+		D2931C3016D2E1B20044643A /* HraciaKartaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HraciaKartaView.h; sourceTree = "<group>"; };
+		D2931C3116D2E1B20044643A /* HraciaKartaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HraciaKartaView.m; sourceTree = "<group>"; };
+		D2931C3316D2E2DB0044643A /* HraciaKartaCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HraciaKartaCollectionViewCell.h; sourceTree = "<group>"; };
+		D2931C3416D2E2DB0044643A /* HraciaKartaCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HraciaKartaCollectionViewCell.m; sourceTree = "<group>"; };
+		D2931C3616D2E6E60044643A /* PorovnavaciaHraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PorovnavaciaHraController.h; sourceTree = "<group>"; };
+		D2931C3716D2E6E60044643A /* PorovnavaciaHraController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PorovnavaciaHraController.m; sourceTree = "<group>"; };
+		D2931C3916D2EBE60044643A /* cardback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardback.png; sourceTree = "<group>"; };
+		D2A05BAA16D3711500AAED7F /* SkupinovaHraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkupinovaHraController.h; sourceTree = "<group>"; };
+		D2A05BAB16D3711500AAED7F /* SkupinovaHraController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkupinovaHraController.m; sourceTree = "<group>"; };
+		D2A05BAD16D3726100AAED7F /* SkupinovaKartaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkupinovaKartaView.h; sourceTree = "<group>"; };
+		D2A05BAE16D3726100AAED7F /* SkupinovaKartaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkupinovaKartaView.m; sourceTree = "<group>"; };
+		D2A05BB016D372B300AAED7F /* SkupinovaKartaCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkupinovaKartaCollectionViewCell.h; sourceTree = "<group>"; };
+		D2A05BB116D372B300AAED7F /* SkupinovaKartaCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkupinovaKartaCollectionViewCell.m; sourceTree = "<group>"; };
 		D2E0B57016B2EAF10024A566 /* cs193p_2013_hw03.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cs193p_2013_hw03.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E0B57416B2EAF10024A566 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D2E0B57616B2EAF10024A566 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,11 +131,9 @@
 		D2E0B58816B2EAF10024A566 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D2E0B58A16B2EAF10024A566 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D2E0B58D16B2EAF10024A566 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		D2E0B58F16B2EAF10024A566 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D2E0B59016B2EAF10024A566 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2E0B58F16B2EAF10024A566 /* HraController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HraController.h; sourceTree = "<group>"; };
+		D2E0B59016B2EAF10024A566 /* HraController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HraController.m; sourceTree = "<group>"; };
 		D2FEF2BB16BFDAD80063E56F /* backFace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backFace.png; sourceTree = "<group>"; };
-		D2FEF2BD16BFDE450063E56F /* PorovnavaciaKartovaHra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PorovnavaciaKartovaHra.h; sourceTree = "<group>"; };
-		D2FEF2BE16BFDE450063E56F /* PorovnavaciaKartovaHra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PorovnavaciaKartovaHra.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,10 +155,8 @@
 			children = (
 				D23B4A8916CA5891007D42AE /* PoslednyTah.h */,
 				D23B4A8A16CA5891007D42AE /* PoslednyTah.m */,
-				D23B4A8616C9B821007D42AE /* SkupinovaKartovaHra.h */,
-				D23B4A8716C9B821007D42AE /* SkupinovaKartovaHra.m */,
-				D2FEF2BD16BFDE450063E56F /* PorovnavaciaKartovaHra.h */,
-				D2FEF2BE16BFDE450063E56F /* PorovnavaciaKartovaHra.m */,
+				D2156AD816D380E3004356C7 /* KartovaHra.h */,
+				D2156AD916D380E3004356C7 /* KartovaHra.m */,
 				D203237616B6AA8500751384 /* HraciaKarta.h */,
 				D203237716B6AA8500751384 /* HraciaKarta.m */,
 				D203237316B6AA7000751384 /* Karta.h */,
@@ -113,7 +176,15 @@
 		D203236E16B6A85D00751384 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D2A05BAD16D3726100AAED7F /* SkupinovaKartaView.h */,
+				D2A05BAE16D3726100AAED7F /* SkupinovaKartaView.m */,
+				D2931C3016D2E1B20044643A /* HraciaKartaView.h */,
+				D2931C3116D2E1B20044643A /* HraciaKartaView.m */,
 				D2E0B58C16B2EAF10024A566 /* MainStoryboard.storyboard */,
+				D2A05BB016D372B300AAED7F /* SkupinovaKartaCollectionViewCell.h */,
+				D2A05BB116D372B300AAED7F /* SkupinovaKartaCollectionViewCell.m */,
+				D2931C3316D2E2DB0044643A /* HraciaKartaCollectionViewCell.h */,
+				D2931C3416D2E2DB0044643A /* HraciaKartaCollectionViewCell.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -121,12 +192,47 @@
 		D203236F16B6A86B00751384 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D2931C3616D2E6E60044643A /* PorovnavaciaHraController.h */,
+				D2931C3716D2E6E60044643A /* PorovnavaciaHraController.m */,
+				D2A05BAA16D3711500AAED7F /* SkupinovaHraController.h */,
+				D2A05BAB16D3711500AAED7F /* SkupinovaHraController.m */,
 				D23B4A7D16C93B21007D42AE /* SecondViewController.h */,
 				D23B4A7E16C93B21007D42AE /* SecondViewController.m */,
-				D2E0B58F16B2EAF10024A566 /* ViewController.h */,
-				D2E0B59016B2EAF10024A566 /* ViewController.m */,
+				D2E0B58F16B2EAF10024A566 /* HraController.h */,
+				D2E0B59016B2EAF10024A566 /* HraController.m */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D2931BFF16D2E13D0044643A /* Obrazky Kariet */ = {
+			isa = PBXGroup;
+			children = (
+				D2931C0016D2E13D0044643A /* J♠.jpg */,
+				D2931C0116D2E13D0044643A /* J♠@2x.jpg */,
+				D2931C0216D2E13D0044643A /* J♣.jpg */,
+				D2931C0316D2E13D0044643A /* J♣@2x.jpg */,
+				D2931C0416D2E13D0044643A /* J♥.jpg */,
+				D2931C0516D2E13D0044643A /* J♥@2x.jpg */,
+				D2931C0616D2E13D0044643A /* J♦.jpg */,
+				D2931C0716D2E13D0044643A /* J♦@2x.jpg */,
+				D2931C0816D2E13D0044643A /* K♠.jpg */,
+				D2931C0916D2E13D0044643A /* K♠@2x.jpg */,
+				D2931C0A16D2E13D0044643A /* K♣.jpg */,
+				D2931C0B16D2E13D0044643A /* K♣@2x.jpg */,
+				D2931C0C16D2E13D0044643A /* K♥.jpg */,
+				D2931C0D16D2E13D0044643A /* K♥@2x.jpg */,
+				D2931C0E16D2E13D0044643A /* K♦.jpg */,
+				D2931C0F16D2E13D0044643A /* K♦@2x.jpg */,
+				D2931C1016D2E13D0044643A /* Q♠.jpg */,
+				D2931C1116D2E13D0044643A /* Q♠@2x.jpg */,
+				D2931C1216D2E13D0044643A /* Q♣.jpg */,
+				D2931C1316D2E13D0044643A /* Q♣@2x.jpg */,
+				D2931C1416D2E13D0044643A /* Q♥.jpg */,
+				D2931C1516D2E13D0044643A /* Q♥@2x.jpg */,
+				D2931C1616D2E13D0044643A /* Q♦.jpg */,
+				D2931C1716D2E13D0044643A /* Q♦@2x.jpg */,
+			);
+			path = "Obrazky Kariet";
 			sourceTree = "<group>";
 		};
 		D2E0B56516B2EAF10024A566 = {
@@ -170,6 +276,8 @@
 		D2E0B57B16B2EAF10024A566 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D2931C3916D2EBE60044643A /* cardback.png */,
+				D2931BFF16D2E13D0044643A /* Obrazky Kariet */,
 				D2E0B58316B2EAF10024A566 /* AppDelegate.h */,
 				D2E0B58416B2EAF10024A566 /* AppDelegate.m */,
 				D2E0B57C16B2EAF10024A566 /* cs193p_2013_hw03-Info.plist */,
@@ -241,6 +349,31 @@
 				D2E0B58B16B2EAF10024A566 /* Default-568h@2x.png in Resources */,
 				D2E0B58E16B2EAF10024A566 /* MainStoryboard.storyboard in Resources */,
 				D2FEF2BC16BFDAD80063E56F /* backFace.png in Resources */,
+				D2931C1816D2E13D0044643A /* J♠.jpg in Resources */,
+				D2931C1916D2E13D0044643A /* J♠@2x.jpg in Resources */,
+				D2931C1A16D2E13D0044643A /* J♣.jpg in Resources */,
+				D2931C1B16D2E13D0044643A /* J♣@2x.jpg in Resources */,
+				D2931C1C16D2E13D0044643A /* J♥.jpg in Resources */,
+				D2931C1D16D2E13D0044643A /* J♥@2x.jpg in Resources */,
+				D2931C1E16D2E13D0044643A /* J♦.jpg in Resources */,
+				D2931C1F16D2E13D0044643A /* J♦@2x.jpg in Resources */,
+				D2931C2016D2E13D0044643A /* K♠.jpg in Resources */,
+				D2931C2116D2E13D0044643A /* K♠@2x.jpg in Resources */,
+				D2931C2216D2E13D0044643A /* K♣.jpg in Resources */,
+				D2931C2316D2E13D0044643A /* K♣@2x.jpg in Resources */,
+				D2931C2416D2E13D0044643A /* K♥.jpg in Resources */,
+				D2931C2516D2E13D0044643A /* K♥@2x.jpg in Resources */,
+				D2931C2616D2E13D0044643A /* K♦.jpg in Resources */,
+				D2931C2716D2E13D0044643A /* K♦@2x.jpg in Resources */,
+				D2931C2816D2E13D0044643A /* Q♠.jpg in Resources */,
+				D2931C2916D2E13D0044643A /* Q♠@2x.jpg in Resources */,
+				D2931C2A16D2E13D0044643A /* Q♣.jpg in Resources */,
+				D2931C2B16D2E13D0044643A /* Q♣@2x.jpg in Resources */,
+				D2931C2C16D2E13D0044643A /* Q♥.jpg in Resources */,
+				D2931C2D16D2E13D0044643A /* Q♥@2x.jpg in Resources */,
+				D2931C2E16D2E13D0044643A /* Q♦.jpg in Resources */,
+				D2931C2F16D2E13D0044643A /* Q♦@2x.jpg in Resources */,
+				D2931C3A16D2EBE60044643A /* cardback.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,17 +386,22 @@
 			files = (
 				D2E0B58116B2EAF10024A566 /* main.m in Sources */,
 				D2E0B58516B2EAF10024A566 /* AppDelegate.m in Sources */,
-				D2E0B59116B2EAF10024A566 /* ViewController.m in Sources */,
+				D2E0B59116B2EAF10024A566 /* HraController.m in Sources */,
 				D203237216B6A94E00751384 /* BalicekKariet.m in Sources */,
 				D203237516B6AA7000751384 /* Karta.m in Sources */,
 				D203237816B6AA8500751384 /* HraciaKarta.m in Sources */,
 				D203237B16B6AB1500751384 /* BalicekHracichKariet.m in Sources */,
-				D2FEF2BF16BFDE450063E56F /* PorovnavaciaKartovaHra.m in Sources */,
 				D23B4A7F16C93B21007D42AE /* SecondViewController.m in Sources */,
 				D23B4A8216C9B073007D42AE /* SkupinovaKarta.m in Sources */,
 				D23B4A8516C9B692007D42AE /* BalicekSkupinovychKariet.m in Sources */,
-				D23B4A8816C9B821007D42AE /* SkupinovaKartovaHra.m in Sources */,
 				D23B4A8B16CA5891007D42AE /* PoslednyTah.m in Sources */,
+				D2931C3216D2E1B20044643A /* HraciaKartaView.m in Sources */,
+				D2931C3516D2E2DC0044643A /* HraciaKartaCollectionViewCell.m in Sources */,
+				D2931C3816D2E6E60044643A /* PorovnavaciaHraController.m in Sources */,
+				D2A05BAC16D3711500AAED7F /* SkupinovaHraController.m in Sources */,
+				D2A05BAF16D3726100AAED7F /* SkupinovaKartaView.m in Sources */,
+				D2A05BB216D372B300AAED7F /* SkupinovaKartaCollectionViewCell.m in Sources */,
+				D2156ADA16D380E3004356C7 /* KartovaHra.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

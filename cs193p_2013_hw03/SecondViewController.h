@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "BalicekSkupinovychKariet.h"
 #import "SkupinovaKarta.h"
-#import "SkupinovaKartovaHra.h"
 
 @interface SecondViewController : UIViewController
 

@@ -17,14 +17,14 @@
     
     if(self) {
         for (NSNumber *hodnota in [SkupinovaKarta vsetkyHodnoty]) {
-            for (NSString *farba in [SkupinovaKarta platneFarby]) {
-                for (NSString *tvar in [SkupinovaKarta platneTvary]) {
-                    for (NSString *odtien in [SkupinovaKarta vsetkyOdtiene]) {
+            for (NSNumber *farba in [SkupinovaKarta platneFarby]) {
+                for (NSNumber *tvar in [SkupinovaKarta platneTvary]) {
+                    for (NSNumber *odtien in [SkupinovaKarta vsetkyOdtiene]) {
                         SkupinovaKarta *karta = [[SkupinovaKarta alloc] init];
                         karta.hodnota = [hodnota intValue];
-                        karta.farba = farba;
-                        karta.odtien = odtien;
-                        karta.tvar = tvar;
+                        karta.farba = [farba intValue];
+                        karta.odtien = [odtien intValue];
+                        karta.tvar = [tvar intValue];
                         karta.nehratelna = NO;
                         karta.otocenaCelnouStranou = NO;
                         [self pridajKartu:karta naVrch:YES];

@@ -1,43 +1,33 @@
 //
-//  SkupinovaKartovaHra.m
-//  cs193p_2013_hw02
+//  KartovaHra.m
+//  cs193p_2013_hw03
 //
-//  Created by Marek Hrušovský on 2/12/13.
+//  Created by Marek Hrušovský on 2/19/13.
 //  Copyright (c) 2013 Marek Hrušovský. All rights reserved.
 //
 
-#import "SkupinovaKartovaHra.h"
+#import "KartovaHra.h"
 #import "PoslednyTah.h"
 
-@interface SkupinovaKartovaHra()
-@property (readwrite,nonatomic) int skore;
-@property (strong,nonatomic) NSMutableArray *karty;
-@property (nonatomic,strong,readwrite) NSMutableArray *poslednyTah;
+@interface KartovaHra()
+
+@property (nonatomic,readwrite) int skore;
+@property (nonatomic,strong) BalicekKariet *balicek;
 @end
 
-@implementation SkupinovaKartovaHra
-
-- (NSMutableArray *)poslednyTah {
-    if (!_poslednyTah) _poslednyTah = [[NSMutableArray alloc]init];
-    return _poslednyTah;
-}
+@implementation KartovaHra
 
 
-- (NSMutableArray *)karty {
-    if (!_karty) _karty = [[NSMutableArray alloc] init];
-    return _karty;
-}
-
-- (id)initWithPocetKariet:(NSUInteger)pocetKariet pouzitimBalickahKariet:(BalicekKariet *) balicek{
+- (id)initWithPocetKariet:(NSUInteger)pocetKariet pouzitimBalickahKariet:(BalicekKariet *) balicek karietNaZhodu:(NSUInteger)pocetKarietNaZhodu{
     self = [super init];
     if (self) {
         for (int i = 0; i < pocetKariet; i++) {
             Karta *karta = [balicek potiahniNahodnuKartu];
             self.karty[i] = karta;
         }
-        self.pocetKarietNaZhodu = 3;
+        self.pocetKarietNaZhodu = pocetKarietNaZhodu;
+        _balicek = balicek;
     }
-    
     return  self;
 }
 
@@ -83,7 +73,7 @@
                 }
             }
             else {
-            
+                
                 self.skore -= CENA_ZA_OTOCENIE;
                 [self.poslednyTah addObject:[[PoslednyTah alloc] initWithKarty:@[karta]
                                                                           stav:@"OTOCENIE"
@@ -97,5 +87,32 @@
 - (Karta *)kartaNaIndexe:(NSUInteger)index {
     return (index < [self.karty count]) ? self.karty[index] : nil;
 }
+
+- (NSMutableArray *)poslednyTah {
+    if (!_poslednyTah) _poslednyTah = [[NSMutableArray alloc]init];
+    return _poslednyTah;
+}
+
+- (void)zmazKartyNaIndexoch:(NSIndexSet *)index {
+    [self.karty removeObjectsAtIndexes:index];
+}
+
+- (NSUInteger)pridajKartu {
+    Karta *karta = [self.balicek potiahniNahodnuKartu];
+    if(karta){
+        [self.karty addObject:karta];
+    }
+    return [self.karty indexOfObject:karta];
+}
+
+- (NSMutableArray *)karty {
+    if (!_karty) _karty = [[NSMutableArray alloc] init];
+    return _karty;
+}
+
+- (NSUInteger)pocetKarietVHre {
+    return [self.karty count];
+}
+
 
 @end

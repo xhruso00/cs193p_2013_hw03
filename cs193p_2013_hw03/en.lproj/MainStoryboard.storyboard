@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="rKe-WR-urj">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="rKe-WR-urj">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -23,377 +23,15 @@
             </objects>
             <point key="canvasLocation" x="-432" y="-175"/>
         </scene>
-        <!--Second View Controller - Item-->
+        <!--Skupinova Hra Controller - Skupinova hra-->
         <scene sceneID="h6Q-pK-bk8">
             <objects>
-                <viewController id="xHJ-vv-bFH" customClass="SecondViewController" sceneMemberID="viewController">
+                <viewController id="xHJ-vv-bFH" customClass="SkupinovaHraController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tma-wn-spn">
                         <rect key="frame" x="0.0" y="20" width="320" height="411"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="V8Y-So-xlm">
-                                <rect key="frame" x="13" y="8" width="65" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <state key="normal" title="×">
-                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="xHJ-vv-bFH" eventType="touchUpInside" id="aiy-PL-YVq"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="JT5-dm-q16">
-                                <rect key="frame" x="86" y="8" width="65" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <state key="normal" title="×">
-                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="xHJ-vv-bFH" eventType="touchUpInside" id="THX-Wf-QHH"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="d4d-bm-RsT">
-                                <rect key="frame" x="163" y="8" width="65" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <state key="normal" title="×">
-                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="xHJ-vv-bFH" eventType="touchUpInside" id="e0U-iy-p8B"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3Ja-x8-ezm">
-                                <rect key="frame" x="243" y="8" width="65" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <state key="normal" title="×">
-                                    <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="xHJ-vv-bFH" eventType="touchUpInside" id="w7c-eR-QuQ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="q3J-Nt-wmY">
-                                <rect key="frame" x="13" y="65" width="65" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <state key="normal" title="×">
-                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="xHJ-vv-bFH" eventType="touchUpInside" id="Ft4-gU-xLC"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="EHa-VD-vbN">
-                                <rect key="frame" x="86" y="65" width="65" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <state key="normal" title="×">
-                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="xHJ-vv-bFH" eventType="touchUpInside" id="Jll-O4-7ce"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="HPZ-ZA-Mao">
-                                <rect key="frame" x="163" y="65" width="65" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <state key="normal" title="×">
-                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="xHJ-vv-bFH" eventType="touchUpInside" id="xb2-qK-h9Q"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="fav-fR-MTc">
-                                <rect key="frame" x="243" y="65" width="65" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <state key="normal" title="×">
-                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="xHJ-vv-bFH" eventType="touchUpInside" id="eJh-VF-ZwX"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Oyp-Sr-OnY">
-                                <rect key="frame" x="13" y="122" width="65" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <state key="normal" title="×">
-                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="xHJ-vv-bFH" eventType="touchUpInside" id="uMv-G9-Mda"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="aeC-fL-qUH">
-                                <rect key="frame" x="86" y="122" width="65" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <state key="normal" title="×">
-                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="xHJ-vv-bFH" eventType="touchUpInside" id="BKn-N3-RVg"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xPj-i6-aRH">
-                                <rect key="frame" x="163" y="122" width="65" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <state key="normal" title="×">
-                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="xHJ-vv-bFH" eventType="touchUpInside" id="OrS-Lc-yUX"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3hT-v3-bNR">
-                                <rect key="frame" x="243" y="122" width="65" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <state key="normal" title="×">
-                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="xHJ-vv-bFH" eventType="touchUpInside" id="fyL-di-HzK"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Tcq-Km-d9D">
-                                <rect key="frame" x="13" y="179" width="65" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <state key="normal" title="×">
-                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="xHJ-vv-bFH" eventType="touchUpInside" id="DFp-gx-V5e"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="fNC-sf-gwQ">
-                                <rect key="frame" x="86" y="179" width="65" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <state key="normal" title="×">
-                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="xHJ-vv-bFH" eventType="touchUpInside" id="qgC-6M-SD0"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Nax-d2-GKu">
-                                <rect key="frame" x="163" y="179" width="65" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <state key="normal" title="×">
-                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="xHJ-vv-bFH" eventType="touchUpInside" id="vKY-Xz-uaS"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="BE3-t6-FYT">
-                                <rect key="frame" x="243" y="179" width="65" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <state key="normal" title="×">
-                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="xHJ-vv-bFH" eventType="touchUpInside" id="mB7-Wm-JV4"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8Th-hO-Bsf">
-                                <rect key="frame" x="13" y="236" width="65" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <state key="normal" title="×">
-                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="xHJ-vv-bFH" eventType="touchUpInside" id="Q8b-G0-NJJ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ZtS-PR-qko">
-                                <rect key="frame" x="86" y="236" width="65" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <state key="normal" title="×">
-                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="xHJ-vv-bFH" eventType="touchUpInside" id="AjM-Ep-iSB"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vPE-0Y-hLe">
-                                <rect key="frame" x="163" y="236" width="65" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <state key="normal" title="×">
-                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="xHJ-vv-bFH" eventType="touchUpInside" id="6ZW-IV-CkP"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="VnL-KS-Cuj">
-                                <rect key="frame" x="243" y="236" width="65" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <state key="normal" title="×">
-                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="xHJ-vv-bFH" eventType="touchUpInside" id="3sk-5h-b7b"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="4ao-X7-67H">
-                                <rect key="frame" x="13" y="293" width="65" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <state key="normal" title="×">
-                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="xHJ-vv-bFH" eventType="touchUpInside" id="FiF-RV-9pI"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vBb-0p-BbV">
-                                <rect key="frame" x="86" y="293" width="65" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <state key="normal" title="×">
-                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="xHJ-vv-bFH" eventType="touchUpInside" id="zeD-K0-WYx"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Oc8-gE-UJW">
-                                <rect key="frame" x="163" y="293" width="65" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <state key="normal" title="×">
-                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="xHJ-vv-bFH" eventType="touchUpInside" id="P7E-ld-Ad4"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Y78-OO-Iyr">
-                                <rect key="frame" x="243" y="293" width="65" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <state key="normal" title="×">
-                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="xHJ-vv-bFH" eventType="touchUpInside" id="gGq-K9-DBH"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hQY-Su-hFt">
-                                <rect key="frame" x="159" y="379" width="53" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hQY-Su-hFt">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Deal">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -406,353 +44,124 @@
                                     <action selector="novaHra:" destination="xHJ-vv-bFH" eventType="touchUpInside" id="sW6-B5-jmn"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Skore: 0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WFg-zL-uPg">
-                                <rect key="frame" x="205" y="382" width="103" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Skore: 0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WFg-zL-uPg">
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ywy-Nc-YmD">
-                                <rect key="frame" x="13" y="350" width="295" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Pocet otoceni: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nYU-R0-Bnd">
-                                <rect key="frame" x="13" y="382" width="138" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="jOj-UL-a29"/>
-                    <connections>
-                        <outlet property="pocetOtoceniPopisok" destination="nYU-R0-Bnd" id="yYr-3V-GlC"/>
-                        <outlet property="poslednyTahPopisok" destination="Ywy-Nc-YmD" id="1JS-mg-4qY"/>
-                        <outlet property="skorePopisok" destination="WFg-zL-uPg" id="s3i-Br-Eeh"/>
-                        <outletCollection property="tlacitkaKariet" destination="V8Y-So-xlm" id="dNm-Xz-BVR"/>
-                        <outletCollection property="tlacitkaKariet" destination="JT5-dm-q16" id="EOd-Fw-1m4"/>
-                        <outletCollection property="tlacitkaKariet" destination="d4d-bm-RsT" id="fZT-ZJ-hza"/>
-                        <outletCollection property="tlacitkaKariet" destination="3Ja-x8-ezm" id="H1F-DL-b3n"/>
-                        <outletCollection property="tlacitkaKariet" destination="q3J-Nt-wmY" id="q48-3k-Grt"/>
-                        <outletCollection property="tlacitkaKariet" destination="EHa-VD-vbN" id="9XV-bA-1gD"/>
-                        <outletCollection property="tlacitkaKariet" destination="HPZ-ZA-Mao" id="Stq-lZ-91o"/>
-                        <outletCollection property="tlacitkaKariet" destination="fav-fR-MTc" id="98Z-RL-fT2"/>
-                        <outletCollection property="tlacitkaKariet" destination="Oyp-Sr-OnY" id="eTV-ZB-eiq"/>
-                        <outletCollection property="tlacitkaKariet" destination="aeC-fL-qUH" id="zZ4-cj-iiZ"/>
-                        <outletCollection property="tlacitkaKariet" destination="xPj-i6-aRH" id="8PN-Lo-pN3"/>
-                        <outletCollection property="tlacitkaKariet" destination="3hT-v3-bNR" id="ULr-kV-vIK"/>
-                        <outletCollection property="tlacitkaKariet" destination="Tcq-Km-d9D" id="sEF-ap-knB"/>
-                        <outletCollection property="tlacitkaKariet" destination="fNC-sf-gwQ" id="BU3-RF-orG"/>
-                        <outletCollection property="tlacitkaKariet" destination="Nax-d2-GKu" id="jEE-ob-OVL"/>
-                        <outletCollection property="tlacitkaKariet" destination="BE3-t6-FYT" id="dZD-pL-I7G"/>
-                        <outletCollection property="tlacitkaKariet" destination="8Th-hO-Bsf" id="717-Ac-okn"/>
-                        <outletCollection property="tlacitkaKariet" destination="ZtS-PR-qko" id="76c-PR-glB"/>
-                        <outletCollection property="tlacitkaKariet" destination="vPE-0Y-hLe" id="tza-3R-5AX"/>
-                        <outletCollection property="tlacitkaKariet" destination="VnL-KS-Cuj" id="ef3-oA-Ghy"/>
-                        <outletCollection property="tlacitkaKariet" destination="4ao-X7-67H" id="4w5-fb-tsR"/>
-                        <outletCollection property="tlacitkaKariet" destination="vBb-0p-BbV" id="CqO-Q6-1l4"/>
-                        <outletCollection property="tlacitkaKariet" destination="Oc8-gE-UJW" id="yBm-mt-78X"/>
-                        <outletCollection property="tlacitkaKariet" destination="Y78-OO-Iyr" id="WEv-wY-Wpl"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xo3-m4-Fu0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="62" y="222"/>
-        </scene>
-        <!--View Controller - Porovnavacia hra-->
-        <scene sceneID="5">
-            <objects>
-                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Pocet otoceni: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Pni-vd-O1V">
-                                <rect key="frame" x="9" y="379" width="152" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DKY-iG-Yz6">
-                                <rect key="frame" x="20" y="5" width="60" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                <state key="normal">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="selected" title="A♣"/>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="2" eventType="touchUpInside" id="KEU-P7-RZM"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="AhD-ks-o7h">
-                                <rect key="frame" x="95" y="5" width="60" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                <state key="normal">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="selected" title="A♣"/>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="2" eventType="touchUpInside" id="81J-Cs-oDD"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CaF-w2-FaR">
-                                <rect key="frame" x="170" y="5" width="60" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                <state key="normal">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="selected" title="A♣"/>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="2" eventType="touchUpInside" id="RcD-X1-FTJ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Zp1-d9-Hqs">
-                                <rect key="frame" x="245" y="5" width="60" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                <state key="normal">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="selected" title="A♣"/>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="2" eventType="touchUpInside" id="kaF-gc-Wkc"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="o9K-bc-8kD">
-                                <rect key="frame" x="20" y="91" width="60" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                <state key="normal">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="selected" title="A♣"/>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="2" eventType="touchUpInside" id="hTB-4b-hbY"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6AV-la-TQL">
-                                <rect key="frame" x="95" y="91" width="60" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                <state key="normal">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="selected" title="A♣"/>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="2" eventType="touchUpInside" id="OAP-BK-asX"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="E9p-CV-eeU">
-                                <rect key="frame" x="170" y="91" width="60" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                <state key="normal">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="selected" title="A♣"/>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="2" eventType="touchUpInside" id="PsQ-2t-Vsf"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YqW-bZ-sGK">
-                                <rect key="frame" x="245" y="91" width="60" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                <state key="normal">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="selected" title="A♣"/>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="2" eventType="touchUpInside" id="QBO-tU-BXF"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YRs-S7-VqZ">
-                                <rect key="frame" x="20" y="176" width="60" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                <state key="normal">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="selected" title="A♣"/>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="2" eventType="touchUpInside" id="XSV-64-BsG"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="zE0-m0-2cF">
-                                <rect key="frame" x="95" y="176" width="60" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                <state key="normal">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="selected" title="A♣"/>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="2" eventType="touchUpInside" id="1Hd-OI-uy0"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="OWD-TC-Osi">
-                                <rect key="frame" x="170" y="176" width="60" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                <state key="normal">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="selected" title="A♣"/>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="2" eventType="touchUpInside" id="Bfq-ih-Wu1"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="EKc-xY-oRf">
-                                <rect key="frame" x="245" y="176" width="60" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                <state key="normal">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="selected" title="A♣"/>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="2" eventType="touchUpInside" id="Ul1-WG-Rjx"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="v7A-2u-8vu">
-                                <rect key="frame" x="20" y="267" width="60" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                <state key="normal">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="selected" title="A♣"/>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="2" eventType="touchUpInside" id="llD-zS-HCf"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sBg-aK-Vke">
-                                <rect key="frame" x="95" y="267" width="60" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                <state key="normal">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="selected" title="A♣"/>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="2" eventType="touchUpInside" id="7Xb-aJ-eOA"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="EPw-un-q2L">
-                                <rect key="frame" x="170" y="267" width="60" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                <state key="normal">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="selected" title="A♣"/>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="2" eventType="touchUpInside" id="tyt-bT-fOZ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jXr-HD-nPt">
-                                <rect key="frame" x="245" y="267" width="60" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
-                                <state key="normal">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="selected" title="A♣"/>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="otocKartu:" destination="2" eventType="touchUpInside" id="UQa-Gv-axm"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Skore: 0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BOJ-xw-5VI">
-                                <rect key="frame" x="200" y="379" width="100" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="h9O-I1-gwG">
-                                <rect key="frame" x="20" y="341" width="285" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ywy-Nc-YmD">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="42" id="0Ib-AD-Jvf"/>
+                                    <constraint firstAttribute="height" constant="21" id="5it-oX-agZ"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="53D-IP-KBp">
-                                <rect key="frame" x="153" y="372" width="60" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="lpf-Dk-caS">
+                                <color key="backgroundColor" red="0.3352411284911927" green="0.93138749064695248" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="dx4-f1-T8V">
+                                    <size key="itemSize" width="49" height="75"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HraciaKarta" id="S54-Zf-fze" customClass="SkupinovaKartaCollectionViewCell">
+                                        <rect key="frame" x="0.0" y="0.0" width="49" height="75"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="49" height="75"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tNo-FT-KN2" customClass="SkupinovaKartaView">
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="tNo-FT-KN2" firstAttribute="bottom" secondItem="S54-Zf-fze" secondAttribute="bottom" type="default" id="Mc3-Gl-p1I"/>
+                                            <constraint firstItem="tNo-FT-KN2" firstAttribute="trailing" secondItem="S54-Zf-fze" secondAttribute="trailing" type="default" id="RyV-ax-tpY"/>
+                                            <constraint firstItem="tNo-FT-KN2" firstAttribute="leading" secondItem="S54-Zf-fze" secondAttribute="leading" type="default" id="cLk-6x-mpk"/>
+                                            <constraint firstItem="tNo-FT-KN2" firstAttribute="top" secondItem="S54-Zf-fze" secondAttribute="top" constant="10" id="xh2-dx-pUX"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="skupinovaKartaView" destination="tNo-FT-KN2" id="XbX-WA-Xlr"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="xHJ-vv-bFH" id="U3W-Uk-TrY"/>
+                                    <outletCollection property="gestureRecognizers" destination="QpT-Km-ffy" appends="YES" id="N11-iO-iZY"/>
+                                </connections>
+                            </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CsT-Is-8Wr">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Pridaj karty">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pridajKarty:" destination="xHJ-vv-bFH" eventType="touchUpInside" id="elE-JN-xfi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="WFg-zL-uPg" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="20v-kh-zDN"/>
+                            <constraint firstItem="lpf-Dk-caS" firstAttribute="trailing" secondItem="Tma-wn-spn" secondAttribute="trailing" type="default" id="3oV-y5-hx6"/>
+                            <constraint firstItem="hQY-Su-hFt" firstAttribute="top" secondItem="Ywy-Nc-YmD" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="9ea-Gr-gDl"/>
+                            <constraint firstAttribute="bottom" secondItem="CsT-Is-8Wr" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="HLQ-kH-b5V"/>
+                            <constraint firstItem="lpf-Dk-caS" firstAttribute="centerX" secondItem="Ywy-Nc-YmD" secondAttribute="centerX" type="default" id="Iiz-GX-8tl"/>
+                            <constraint firstItem="lpf-Dk-caS" firstAttribute="leading" secondItem="Tma-wn-spn" secondAttribute="leading" type="default" id="N47-47-P8b"/>
+                            <constraint firstItem="lpf-Dk-caS" firstAttribute="top" secondItem="Tma-wn-spn" secondAttribute="top" type="default" id="SY0-l8-sxp"/>
+                            <constraint firstItem="CsT-Is-8Wr" firstAttribute="leading" secondItem="Tma-wn-spn" secondAttribute="leading" constant="20" symbolic="YES" type="user" id="d10-GL-Vjw"/>
+                            <constraint firstItem="hQY-Su-hFt" firstAttribute="baseline" secondItem="WFg-zL-uPg" secondAttribute="baseline" type="default" id="d2a-uY-Ukt"/>
+                            <constraint firstItem="Ywy-Nc-YmD" firstAttribute="centerX" secondItem="hQY-Su-hFt" secondAttribute="centerX" type="default" id="lyp-Q5-ZEm"/>
+                            <constraint firstItem="Ywy-Nc-YmD" firstAttribute="top" secondItem="lpf-Dk-caS" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="qdL-ni-GPB"/>
+                            <constraint firstAttribute="bottom" secondItem="hQY-Su-hFt" secondAttribute="bottom" constant="20" symbolic="YES" type="user" id="vRV-Bf-nbP"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Skupinova hra" id="jOj-UL-a29"/>
+                    <connections>
+                        <outlet property="collectionViewKariet" destination="lpf-Dk-caS" id="mi0-gG-jBE"/>
+                        <outlet property="poslednyTahPopisok" destination="Ywy-Nc-YmD" id="YaV-9B-59u"/>
+                        <outlet property="skorePopisok" destination="WFg-zL-uPg" id="kGY-2N-z6u"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xo3-m4-Fu0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="QpT-Km-ffy">
+                    <connections>
+                        <action selector="otocKartu:" destination="xHJ-vv-bFH" id="Dpz-pj-wtU"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="62" y="222"/>
+        </scene>
+        <!--Porovnavacia Hra Controller - Porovnavacia hra-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="PorovnavaciaHraController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="20" width="320" height="411"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Skore: 0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BOJ-xw-5VI">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h9O-I1-gwG">
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="53D-IP-KBp">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Deal">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -765,59 +174,144 @@
                                     <action selector="novaHra:" destination="2" eventType="touchUpInside" id="FO1-O3-XXg"/>
                                 </connections>
                             </button>
+                            <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ewd-Yl-cCE">
+                                <color key="backgroundColor" red="0.66501680200000002" green="1" blue="0.1657060283" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="apB-XH-8de">
+                                    <size key="itemSize" width="50" height="70"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HraciaKarta" id="mMI-xz-HmL" customClass="HraciaKartaCollectionViewCell">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="70"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="70"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Rt-6k-hOf" customClass="HraciaKartaView">
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="8Rt-6k-hOf" firstAttribute="leading" secondItem="mMI-xz-HmL" secondAttribute="leading" type="default" id="3kB-6N-cRp"/>
+                                            <constraint firstItem="8Rt-6k-hOf" firstAttribute="trailing" secondItem="mMI-xz-HmL" secondAttribute="trailing" type="default" id="E3r-Xk-u9y"/>
+                                            <constraint firstItem="8Rt-6k-hOf" firstAttribute="top" secondItem="mMI-xz-HmL" secondAttribute="top" type="default" id="oeJ-5G-LAh"/>
+                                            <constraint firstItem="8Rt-6k-hOf" firstAttribute="bottom" secondItem="mMI-xz-HmL" secondAttribute="bottom" type="default" id="tfB-N3-ZIU"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="hraciaKartaView" destination="8Rt-6k-hOf" id="f1Q-Rt-vyr"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="2" id="78R-qY-2hk"/>
+                                    <outletCollection property="gestureRecognizers" destination="owl-bA-VUg" appends="YES" id="5HP-MK-q3r"/>
+                                </connections>
+                            </collectionView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FXp-sW-slH">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Pridaj karty">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pridajKarty:" destination="2" eventType="touchUpInside" id="ypO-Eg-mgG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FXp-sW-slH" firstAttribute="bottom" secondItem="53D-IP-KBp" secondAttribute="bottom" type="default" id="8jU-pt-rz8"/>
+                            <constraint firstAttribute="trailing" secondItem="BOJ-xw-5VI" secondAttribute="trailing" constant="6" id="967-eZ-Q1y"/>
+                            <constraint firstItem="53D-IP-KBp" firstAttribute="top" secondItem="h9O-I1-gwG" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="HeT-vO-Dxb"/>
+                            <constraint firstItem="FXp-sW-slH" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="user" id="L26-Qk-D4O"/>
+                            <constraint firstItem="BOJ-xw-5VI" firstAttribute="centerY" secondItem="53D-IP-KBp" secondAttribute="centerY" type="default" id="LBa-CP-L6n"/>
+                            <constraint firstItem="ewd-Yl-cCE" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="Ob0-Ky-fXf"/>
+                            <constraint firstItem="h9O-I1-gwG" firstAttribute="top" secondItem="ewd-Yl-cCE" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="WgL-vZ-giI"/>
+                            <constraint firstItem="ewd-Yl-cCE" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="ZFQ-yR-G75"/>
+                            <constraint firstItem="ewd-Yl-cCE" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="a3f-pp-CMZ"/>
+                            <constraint firstItem="h9O-I1-gwG" firstAttribute="centerX" secondItem="53D-IP-KBp" secondAttribute="centerX" type="default" id="d8a-bq-m1p"/>
+                            <constraint firstAttribute="bottom" secondItem="BOJ-xw-5VI" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="d9U-Vb-qxg"/>
+                            <constraint firstItem="FXp-sW-slH" firstAttribute="baseline" secondItem="53D-IP-KBp" secondAttribute="baseline" type="default" id="h1i-mT-AA9"/>
+                            <constraint firstItem="h9O-I1-gwG" firstAttribute="centerX" secondItem="ewd-Yl-cCE" secondAttribute="centerX" type="default" id="of5-qk-ElB"/>
+                            <constraint firstItem="FXp-sW-slH" firstAttribute="top" secondItem="53D-IP-KBp" secondAttribute="top" type="default" id="t1f-t6-mtE"/>
+                            <constraint firstItem="BOJ-xw-5VI" firstAttribute="baseline" secondItem="53D-IP-KBp" secondAttribute="baseline" type="default" id="xqi-wH-sRd"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Porovnavacia hra" id="P42-H9-HSE"/>
                     <connections>
-                        <outlet property="pocetOtoceniPopisok" destination="Pni-vd-O1V" id="ug6-1K-qdL"/>
+                        <outlet property="collectionViewKariet" destination="ewd-Yl-cCE" id="SYj-4G-9ba"/>
                         <outlet property="poslednyTahPopisok" destination="h9O-I1-gwG" id="hTB-GK-Fsc"/>
                         <outlet property="skorePopisok" destination="BOJ-xw-5VI" id="zEO-ab-Xta"/>
-                        <outletCollection property="tlacitkaKariet" destination="DKY-iG-Yz6" id="mQp-av-36g"/>
-                        <outletCollection property="tlacitkaKariet" destination="AhD-ks-o7h" id="CJw-ex-vBv"/>
-                        <outletCollection property="tlacitkaKariet" destination="CaF-w2-FaR" id="LNo-e5-lXs"/>
-                        <outletCollection property="tlacitkaKariet" destination="Zp1-d9-Hqs" id="FV8-GR-2vK"/>
-                        <outletCollection property="tlacitkaKariet" destination="o9K-bc-8kD" id="5bd-Fx-RUR"/>
-                        <outletCollection property="tlacitkaKariet" destination="6AV-la-TQL" id="bQQ-ZZ-y8O"/>
-                        <outletCollection property="tlacitkaKariet" destination="E9p-CV-eeU" id="ehf-yf-rgZ"/>
-                        <outletCollection property="tlacitkaKariet" destination="YqW-bZ-sGK" id="goX-7S-l6p"/>
-                        <outletCollection property="tlacitkaKariet" destination="YRs-S7-VqZ" id="UQV-uJ-UXW"/>
-                        <outletCollection property="tlacitkaKariet" destination="zE0-m0-2cF" id="cSY-ln-B0E"/>
-                        <outletCollection property="tlacitkaKariet" destination="OWD-TC-Osi" id="GiY-0j-M5q"/>
-                        <outletCollection property="tlacitkaKariet" destination="EKc-xY-oRf" id="HcW-f3-UNZ"/>
-                        <outletCollection property="tlacitkaKariet" destination="v7A-2u-8vu" id="yey-jV-hLi"/>
-                        <outletCollection property="tlacitkaKariet" destination="sBg-aK-Vke" id="uoa-zA-72l"/>
-                        <outletCollection property="tlacitkaKariet" destination="EPw-un-q2L" id="HEk-8k-oQs"/>
-                        <outletCollection property="tlacitkaKariet" destination="jXr-HD-nPt" id="vD2-aA-iQ3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="owl-bA-VUg">
+                    <connections>
+                        <action selector="otocKartu:" destination="2" id="ucW-8D-xcu"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="50" y="-395"/>
         </scene>
     </scenes>
     <classes>
-        <class className="SecondViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SecondViewController.h"/>
+        <class className="HraController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HraController.h"/>
             <relationships>
                 <relationship kind="action" name="novaHra:" candidateClass="UIButton"/>
-                <relationship kind="action" name="otocKartu:" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="pocetOtoceniPopisok" candidateClass="UILabel"/>
+                <relationship kind="action" name="otocKartu:" candidateClass="UITapGestureRecognizer"/>
+                <relationship kind="outlet" name="collectionViewKariet" candidateClass="UICollectionView"/>
                 <relationship kind="outlet" name="poslednyTahPopisok" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="skorePopisok" candidateClass="UILabel"/>
-                <relationship kind="outletCollection" name="tlacitkaKariet" candidateClass="UIButton"/>
             </relationships>
         </class>
-        <class className="ViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+        <class className="HraciaKartaCollectionViewCell" superclassName="UICollectionViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HraciaKartaCollectionViewCell.h"/>
             <relationships>
-                <relationship kind="action" name="novaHra:" candidateClass="UIButton"/>
-                <relationship kind="action" name="otocKartu:" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="pocetOtoceniPopisok" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="poslednyTahPopisok" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="skorePopisok" candidateClass="UILabel"/>
-                <relationship kind="outletCollection" name="tlacitkaKariet" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="hraciaKartaView" candidateClass="HraciaKartaView"/>
             </relationships>
+        </class>
+        <class className="HraciaKartaView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/HraciaKartaView.h"/>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="PorovnavaciaHraController" superclassName="HraController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PorovnavaciaHraController.h"/>
+        </class>
+        <class className="SkupinovaHraController" superclassName="HraController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SkupinovaHraController.h"/>
+        </class>
+        <class className="SkupinovaKartaCollectionViewCell" superclassName="UICollectionViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SkupinovaKartaCollectionViewCell.h"/>
+            <relationships>
+                <relationship kind="outlet" name="skupinovaKartaView" candidateClass="SkupinovaKartaView"/>
+            </relationships>
+        </class>
+        <class className="SkupinovaKartaView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SkupinovaKartaView.h"/>
+        </class>
+        <class className="UICollectionReusableView" superclassName="UIView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionReusableView.h"/>
+        </class>
+        <class className="UICollectionViewCell" superclassName="UICollectionReusableView">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionViewCell.h"/>
+        </class>
+        <class className="UICollectionViewFlowLayout" superclassName="UICollectionViewLayout">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionViewFlowLayout.h"/>
+        </class>
+        <class className="UICollectionViewLayout" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/UICollectionViewLayout.h"/>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
